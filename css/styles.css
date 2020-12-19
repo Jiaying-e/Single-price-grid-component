@@ -1,0 +1,50 @@
+/* 
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  } */
+
+body {
+    font-family: "Karla";
+}
+
+.bigheading {
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+}
+
+.subheading {
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.description {
+    font-size: 16px;
+    color: hsl(218, 22%, 67%);
+}
+
+h1, h2, h3 {
+    line-height: 200%;
+}
+
+.home, .prices, .reasons {
+    padding: 25px 30px;
+}
+
+
+  /* }
+  
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head> */
