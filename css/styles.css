@@ -1,23 +1,86 @@
-/* 
-.big-heading {
-    font-family: "Montserrat-Black";
-    font-size: 3.5rem;
-    line-height: 1.5;
+
+  .container-fluid {
+    padding: 0;
+    margin: 0;
   }
-  
-  .section-heading {
-    font-size: 3rem;
-    line-height: 1.5;
-  } */
+* {
+  box-sizing: border-box;
+}
+
+.box1, .box2 {
+  float: left;
+  padding: 30px;
+}
+
+.box1 {
+  background-color: hsl(179, 100%, 30%);
+}
+
+
+.box2 {
+  background-color: hsl(179, 100%, 35%);
+  line-height: 50%;
+}
+
+.month {
+color:  hsl(187, 29%, 94%);
+}
 
 body {
     font-family: "Karla";
+}
+
+h1, h2, h3 {
+    line-height: 100%;
+}
+
+strong {
+  color: hsl(204, 43%, 93%);
+
+}
+
+.box1 h3 {
+  font-size: 20px;
+  color: hsl(204, 43%, 93%);
+  line-height: 150%;
+}
+
+.box1 p {
+  color: hsl(204, 43%, 93%);
+  line-height: 250%;
+}
+
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  color:green;
+  border-radius: 4px;
+  width: 250px;
+
+}
+
+.btn hover {
+  background-color: honeydew;
+  color: aliceblue;
+}
+
+
+
+.box2 h3 {
+  font-size: 20px;
+  color: hsl(204, 43%, 93%);
+  margin-bottom: 13%;
+}
+
+.box2 p {
+  color: hsl(204, 43%, 93%);
+  
 }
 
 .bigheading {
     font-size: 24px;
     font-weight: 700;
     color: hsl(179, 62%, 43%);
+    line-height: 150%;
 }
 
 .subheading {
@@ -30,21 +93,7 @@ body {
     font-size: 16px;
     color: hsl(218, 22%, 67%);
 }
-
-h1, h2, h3 {
-    line-height: 200%;
-}
-
 .home, .prices, .reasons {
     padding: 25px 30px;
 }
 
-
-  /* }
-  
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head> */
